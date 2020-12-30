@@ -1,0 +1,32 @@
+{
+  "name": "IntelCost",
+  "license": "MIT",
+  "type": "project",
+  "description": "IntelCost Skeleton",
+  "require": {
+     "twig/twig":"^3.0",
+    "fzaninotto/faker": "^1.9",
+    "nesbot/carbon": "^2.34",
+    "mockery/mockery": "^1.3",
+    "aura/router": "^3.1",
+    "laminas/laminas-diactoros": "^2.3",
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "illuminate/database": "*",
+    "ext-mysqli": "*",
+    "Josantonius/Session":  "*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "IntelCost\\Apps\\Furniture\\Frontend\\Controllers\\": "apps/furniture/frontend/src/Controllers",
+      "IntelCost\\": ["src"]
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "IntelCost\\Tests\\": ["tests/src"]
+    }
+  }
+}
